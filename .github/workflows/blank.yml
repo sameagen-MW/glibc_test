@@ -32,6 +32,6 @@ jobs:
       - name: Install matlab
         uses: matlab-actions/setup-matlab@v2
         with:
-          version: R2024a
+          release: R2024a
 
       - run: strings /opt/hostedtoolcache/MATLAB/2024.1.999/x64/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6 | grep GLIBCXX
